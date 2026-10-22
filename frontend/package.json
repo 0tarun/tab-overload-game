@@ -20,6 +20,7 @@
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.1.2",
     "autoprefixer": "^10.6.1",
+    "esbuild": "^0.28.2",
     "oxlint": "^1.88.0",
     "postcss": "^8.5.31",
     "tailwindcss": "^4.3.3",
@@ -27,6 +28,8 @@
     "vite": "^8.3.4"
   },
   "optionalDependencies": {
-    "@rolldown/binding-linux-x64-gnu": "1.2.15"
+    "@rolldown/binding-linux-x64-gnu": "1.2.15",
+    "@tailwindcss/oxide-linux-x64-gnu": "4.3.3",
+    "lightningcss-linux-x64-gnu": "1.32.0"
   }
 }
