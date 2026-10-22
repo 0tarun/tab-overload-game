@@ -1,0 +1,10 @@
+{
+  "installCommand": "npm install",
+  "buildCommand": "npm run build:frontend",
+  "outputDirectory": "frontend/dist",
+  "functions": {
+    "api/**/*.ts": {
+      "maxDuration": 10
+    }
+  }
+}
